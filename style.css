@@ -1,7 +1,50 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+      interpolate-size: allow-keywords;
+    }
+  }
+
 @supports (font-size-adjust: 1) {
-    
+    p {font-size-adjust: 0.5;}
+}
+
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
 }
 
 p {
+    text-wrap: pretty;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+}
+
+body {
     line-height: calc(1ex / 0.32);
+}
+p {
+
+    width: 60ch;
+    max-width: 100%;
+
+    -webkit-font-smoothing: antialiased;
+
 }
