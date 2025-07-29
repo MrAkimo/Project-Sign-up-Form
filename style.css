@@ -58,52 +58,73 @@ main {
 }
 
 aside {
-    flex-shrink: 1;
-    background-image: url("/neom-kXbit_yx8t4-unsplash.jpg");
-    background-size: contain;
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 8;
+    flex-grow: 1;
     flex-basis: 500px;
+    background-image: url("/neom-kXbit_yx8t4-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+    justify-content: center;
+
 }
+
 
 .container-logo {
    background-color: rgba(0, 0, 0, 0.5);
+   color: white;
+   padding: 25px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   
 }
 
-.logo {
-    max-width: 30%;
-}
+.logo ,.container-logo p{
+    max-width: 80px;
+    font-size: 1.5rem;
 
+}
+.header-article {
+    padding: 3em 4em;
+}
 article {
-    flex-shrink: 8;
     max-height: 100%;
     display: flex;
+    flex-shrink: 1;
+    flex-grow: 6;
+    flex-basis: 500px;
     flex-flow: column;
     justify-content: space-evenly;
-
+    background-color: #fafafa;
 }
 
 form {
     padding: 50px;
     margin: 0 0 40px 0;
     box-shadow: 0px 22px 18px -20px rgba(66, 68, 90, 1);
+    background-color: white;
 }
 
 .form-inputs {
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
+    column-gap: 3em;
 }
 .form-row {
     margin-bottom: 40px;
     display: flex;
-    justify-content: flex-start;
     flex-direction: column;
     flex-wrap: wrap;
 }
 
-.form-row input[type='text'] {
+.form-row input {
     background-color: #ffffff;
     border: 1px solid #D6D9DC;
+    width: 30em;
     border-radius: 3px;
     padding: 7px;
     font-size: 0.9em;
@@ -111,4 +132,8 @@ form {
 
 .form-row label {
     margin-bottom: -5px;
+}
+
+.btn-create-acount {
+    background-color: #596D48;
 }
