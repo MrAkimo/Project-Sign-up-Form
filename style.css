@@ -52,6 +52,7 @@ p {
 }
 
 main {
+    height: 100%;
     display: flex;
     flex-direction: row;
 }
@@ -133,6 +134,16 @@ form {
     margin-bottom: -5px;
 }
 
+.section-summit {
+    padding: 0px 0px 0px 50px;
+}
+
 .btn-create-acount {
-    background-color: #596D48;
+    color: white;
+    background-color: rgb(165, 122, 42);
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.5rem;
+    margin-bottom: 3vh;
+    padding: 1rem 3.5rem;
 }
