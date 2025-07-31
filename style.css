@@ -75,7 +75,7 @@ aside {
 .container-logo {
    background-color: rgba(0, 0, 0, 0.5);
    color: white;
-   padding: 25px;
+   padding: 1em;
    display: flex;
    align-items: center;
    justify-content: center;
@@ -102,8 +102,8 @@ article {
 }
 
 form {
-    padding: 50px;
-    margin: 0 0 40px 0;
+    padding: 3em;
+    margin: 0 0 2em 0;
     box-shadow: 0px 22px 18px -20px rgba(66, 68, 90, 1);
     background-color: white;
 }
@@ -124,10 +124,10 @@ form {
 .form-row input {
     background-color: #ffffff;
     border: 1px solid #D6D9DC;
-    width: 30em;
+    font-size: 0.9rem;
+    width: 28em;
     border-radius: 3px;
-    padding: 7px;
-    font-size: 0.9em;
+    padding: 0.4em;
 }
 
 .form-row label {
@@ -135,10 +135,16 @@ form {
 }
 
 .section-summit {
-    padding: 0px 0px 0px 50px;
+    padding: 0px 0px 0px 3em;
+}
+
+.section-summit p a {
+    text-decoration: none;
+    color: rgb(165, 122, 42);
 }
 
 .btn-create-acount {
+    border-style: none;
     color: white;
     background-color: rgb(165, 122, 42);
     border-radius: 10px;
