@@ -67,14 +67,27 @@ aside {
     background-size: cover;
     background-position: center;
     background-color: black;
-    justify-content: center;
+    justify-content: space-between;
+    color: white;
 
+}
+
+aside footer{
+    margin-bottom: 2em;
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+aside footer a {
+    color: white;
 }
 
 
 .container-logo {
    background-color: rgba(0, 0, 0, 0.5);
    color: white;
+   margin-top: 16em;
    padding: 1em;
    display: flex;
    align-items: center;
@@ -87,8 +100,12 @@ aside {
     font-size: 1.5rem;
 
 }
-.header-article {
+header {
     padding: 3em 4em;
+}
+
+header h1 {
+    margin-bottom: 1em;
 }
 article {
     max-height: 100%;
