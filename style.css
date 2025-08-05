@@ -68,7 +68,7 @@ aside {
     flex-shrink: 8;
     flex-grow: 1;
     flex-basis: 500px;
-    background-image: url("/neom-kXbit_yx8t4-unsplash.jpg");
+    background-image: url("neom-kXbit_yx8t4-unsplash.jpg");
     background-size: cover;
     background-position: center;
     background-color: black;
